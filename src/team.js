@@ -1,9 +1,5 @@
 import React from "react";
 import team_mem from './millennial.png';
-import github from './github.svg';
-import linkdin from './linkdin.svg';
-import instagram from './instagram.svg';
-import facebook from './facebook.svg';
 import "./App.css";
 //import "./circle.css";
 
