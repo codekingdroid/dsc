@@ -11,6 +11,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #3a3939;
+	background-color: #292929;
 	color: aliceblue;
+	background-image: url(./background.svg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
 }
