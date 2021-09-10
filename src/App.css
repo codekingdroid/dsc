@@ -40,7 +40,7 @@
 
 .container .card {
 	position: relative;
-	height: 260px;
+	height: 270px;
 	background: #292929;
 	border-radius: 10px;
 	overflow: hidden;
@@ -125,7 +125,7 @@
 }
 
 .container .card:hover .contentBx {
-	height: 90px;
+	height: 96px;
 }
 
 .container .card .contentBx h2 {
