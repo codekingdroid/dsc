@@ -7,7 +7,7 @@ const t_role=["GDSC Lead", "Machine Learning", "Management Head", "Android & Clo
 function App(){
   return(
     <div className="app">
-      <div className="Nav">This is NavBar</div>
+      {/* <div className="Nav">This is NavBar</div> */}
       <h1 className="headings">Our Team</h1>
       <div className="member">
       <Team name={t_name[0]} role={t_role[0]} />

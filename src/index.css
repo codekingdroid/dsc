@@ -3,21 +3,14 @@
 		'Helvetica Neue', sans-serif;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background-color: #292929;
+	background-color: #282626;
 	color: aliceblue;
 	background-image: url(./background.svg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	background-position: center;
-	/*background-repeat: no-repeat;*/
 	background-size: cover;
 }

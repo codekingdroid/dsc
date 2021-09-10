@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .app {
-	height: 100vh;
-	width: 100%;
+	height: auto;
 }
 
 .member {
-	padding: 0;
-	margin: 0;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -15,7 +12,7 @@
 
 .headings {
 	text-align: center;
-	margin-top: 20px;
+	margin: 28px 0 0 0;
 }
 
 .Nav {
@@ -33,16 +30,18 @@
 
 .container {
 	position: relative;
-	width: 13%;
-	margin: 15px 55px 40px 25px;
-	justify-content: center;
+	max-width: 200px;
+	margin: 28px 40px;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 200px;
 }
 
 .container .card {
 	position: relative;
-	width: 200px;
 	height: 260px;
-	background: #373737;
+	background: #292929;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 6px 6px 5px -1px rgba(0, 0, 0, 0.67);
@@ -136,7 +135,7 @@
 	font-weight: 500;
 	letter-spacing: 1px;
 	color: #fff;
-	margin: 2px 6px 0px 6px;
+	margin: 2px;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
@@ -148,7 +147,7 @@
 	transition: 0.4s;
 	opacity: 0;
 	visibility: hidden;
-	padding: 3px;
+	padding: 3px 0;
 }
 
 .container .card:hover .contentBx .size {
@@ -170,7 +169,6 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-right: 10px;
 	text-shadow: -2px -1px 2px rgba(0, 0, 0, 0.6);
 }
 
@@ -214,24 +212,3 @@
 .container .card .contentBx .color span:nth-child(4) {
 	background-image: url(./linkdin.svg);
 }
-
-/* .container .card .contentBx a {
-	display: inline-block;
-	padding: 10px 20px;
-	background: #fff;
-	border-radius: 4px;
-	margin-top: 10px;
-	text-decoration: none;
-	font-weight: 600;
-	color: #111;
-	opacity: 0;
-	transform: translateY(50px);
-	transition: 0.5s;
-	margin-top: 0;
-}
-
-.container .card:hover .contentBx a {
-	opacity: 1;
-	transform: translateY(0px);
-	transition-delay: 0.75s;
-} */
