@@ -9,7 +9,7 @@
 body {
 	background-color: #282626;
 	color: aliceblue;
-	background-image: url(./background.svg);
+	background-image: url(./images/background.svg);
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: cover;

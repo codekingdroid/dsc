@@ -1,7 +1,6 @@
 import React from "react";
-import team_mem from './millennial.png';
+import team_mem from './images/profile.jpg';
 import "./App.css";
-//import "./circle.css";
 
 function team(props){
     return (
@@ -16,10 +15,18 @@ function team(props){
                     <h3>{props.role}</h3>
                 </div>
                 <div className="color">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span><a href={"https://www.github.com/"+props.gh} target="_blank" rel="noopener noreferrer">
+                        <span className="smi">Github</span></a>
+                    </span>
+                    <span><a href={"https://www.instagram.com/"+props.ig} target="_blank" rel="noopener noreferrer">
+                        <span className="smi">Instagram</span></a>
+                    </span>
+                    <span><a href={"https://www.facebook.com/"+props.fb} target="_blank" rel="noopener noreferrer">
+                        <span className="smi">Facebook</span></a>
+                    </span>
+                    <span><a href={"https://www.linkedin.com/in/"+props.ln} target="_blank" rel="noopener noreferrer">
+                        <span className="smi">LinkdIn</span></a>
+                    </span>
                 </div>
             </div>
         </div>
