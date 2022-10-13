@@ -1,3 +1,5 @@
+There's a hidden flag for you to find out :D 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
